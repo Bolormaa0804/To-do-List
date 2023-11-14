@@ -1,0 +1,79 @@
+
+* {
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #8ebfb3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #000;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background: #dde8e4;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.TodoInput {
+  outline: none;
+  background: none;
+  border: 1px solid;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #000;
+}
+
+.TodoInput::placeholder {
+  color: #0e0e0e4d;
+}
+
+.Todo-button {
+  background: #84dcc6;
+  color: #000;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #84dcc6;
+  color: #000;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.completed {
+  color: #0e0e0e4d;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+ 
